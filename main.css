@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(32, 32, 41);
+}
+
+header{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/*layout of todo-container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 500px;
+    min-height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/*input and button section*/
+#task-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+}
